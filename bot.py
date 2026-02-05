@@ -3,7 +3,7 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, MessageHandler, ContextTypes, filters
 import yt_dlp
 
-TOKEN = os.getenv("BOT_TOKEN")
+TOKEN = ("8555844711:AAHbGtRaM3FkwDszbrTzZVCXwV-m3wx4uAI")
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
